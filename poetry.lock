@@ -1373,6 +1373,17 @@ pymysql = ["pymysql"]
 sqlcipher = ["sqlcipher3-binary"]
 
 [[package]]
+name = "sqlcipher3"
+version = "0.5.4"
+description = "DB-API 2.0 interface for SQLCipher 3.x"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "sqlcipher3-0.5.4.tar.gz", hash = "sha256:e30ff58d64dd43e19eceddd10116a1a27ad1d9888cc4245c75f2bda9b0384e77"},
+]
+
+[[package]]
 name = "tinycss2"
 version = "1.4.0"
 description = "A tiny CSS parser"
@@ -1451,4 +1462,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "~3.12"
-content-hash = "bd4fa3594246f5fb4c4ee1fce4eefe9cc7b43fd9cbf5684e838c138508244f17"
+content-hash = "415bc786dc5b4772360aae7b6934f835f0f1b3a6250a5535240490cedbc98aa9"
